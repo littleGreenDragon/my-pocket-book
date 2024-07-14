@@ -23,7 +23,7 @@
     "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server":"json-server ./server/db.json --port 3001"
+    "server": "json-server ./server/db.json --port 3001"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",
-    "json-server": "^1.0.0-beta.1"
+    "json-server": "^1.0.0-beta.1",
+    "sass": "^1.77.8"
   }
 }
