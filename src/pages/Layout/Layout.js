@@ -36,7 +36,6 @@ function Layout(){
         dispatch(loadBillList());
     },[dispatch]);
     function switchRoute(path){//切换菜单跳转路由
-        console.log(path);
         navigate(path);
     }
     return (
