@@ -2,6 +2,7 @@ import classNames from 'classnames'
 import '@/components/DayBill/index.scss'
 import { useMemo, useState } from 'react';
 import {billTypeToName} from '@/const/billType';
+import Icon from '../Icon/Icon';
 
 const DayBill = ({timeList}) => {
   //计算总值、支出、收入
@@ -49,6 +50,7 @@ const DayBill = ({timeList}) => {
             return (
               <div className="bill" key={item.id}>
                 <div className="detail">
+                  <Icon img={item.useFor}/>
                   <div className="billType">{billTypeToName[item.useFor]}</div>
                 </div>
                 <div className={classNames('money', item.type)}>

@@ -12,8 +12,8 @@ const Month = () => {
     //时间选择器是否展示状态
     const [show, setShow] = useState(false);
     //时间状态
-    // const [date, setDate] = useState(dayjs(new Date()).format('YYYY | MM'));
-    const [date, setDate] = useState(dayjs('2022-10-24 10:37:51').format('YYYY | MM'));
+    const [date, setDate] = useState(dayjs(new Date()).format('YYYY | MM'));
+    // const [date, setDate] = useState(dayjs('2022-10-24 10:37:51').format('YYYY | MM'));
     //账本列表状态
     const billList = useSelector(billListSelector);
     //将账单按时间分组,账单发生变化更新
