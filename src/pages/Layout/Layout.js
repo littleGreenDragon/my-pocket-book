@@ -30,7 +30,6 @@ const tabs = [
 
 function Layout(){
     const dispatch = useDispatch();
-    const billList = useSelector(billListSelector);
     const navigate = useNavigate();
     useEffect(()=>{
         dispatch(loadBillList());
