@@ -1,7 +1,15 @@
 # my-pocket-book
-> 自己写的移动端记账本，React18 Hook+Redux9+Redux ToolKit+redux-persist+Router6+echarts+json-server+antD Mobile+scss
-> 首先素材中矢量图来自https://www.iconfont.cn/
-> 页面结构参考https://github.com/Nick930826/juejue-vite-h5和https://www.bilibili.com/video/BV1ZB4y1Z7o8/?p=163&vd_source=b2d394eec10e8ecfd1eec9adc8cc6630和https://github.com/Blackn-L/day-day-account-book-frontend/tree/main?tab=readme-ov-file
+*  从0写一个react项目，学习完入门知识之后完成的第一个项目，特点如下
+*  0.整体情况React18 Hook+Redux9+Redux ToolKit+redux-persist+Router6+echarts+json-server+antD Mobile+scss
+*  1.React18，0类组件，纯Hook
+*  2.Redux+RTK+redux-persist，实现数据持久化
+*  3.Routev6，使用声明式语法配置路由
+*  4.antd-mobile、echarts，练习组件库的使用和开发文档的阅读
+*  5.首先素材中矢量图来自https://www.iconfont.cn/
+*  6.页面结构参考
+*  https://github.com/Nick930826/juejue-vite-h5
+*  https://www.bilibili.com/video/BV1ZB4y1Z7o8/?p=163&vd_source=b2d394eec10e8ecfd1eec9adc8cc6630
+*  https://github.com/*Blackn-L/day-day-account-book-frontend/tree/main?tab=readme-ov-file
 
 ## 工具包
 * `react-router-dom v6.24.1` 路由切换
@@ -18,8 +26,6 @@
 * `lodash` 开放源码的JavaScript函式库，透过函数式编程模式提供开发者常用的函数
 * `json-server` 模拟后端接口
 * `json-server-auth` 模拟后端返回token和权限验证
-
-
 
 ## 功能
 * 登录（已完成）
