@@ -10,6 +10,7 @@
 *  https://github.com/Nick930826/juejue-vite-h5
 *  https://www.bilibili.com/video/BV1ZB4y1Z7o8/?p=163&vd_source=b2d394eec10e8ecfd1eec9adc8cc6630
 *  https://github.com/*Blackn-L/day-day-account-book-frontend/tree/main?tab=readme-ov-file
+*  可联系本人探讨一下项目的技术和写的不对的地方2771151076@qq.com
 
 ## 工具包
 * `react-router-dom v6.24.1` 路由切换
