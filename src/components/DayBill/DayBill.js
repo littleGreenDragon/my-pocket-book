@@ -50,7 +50,7 @@ const DayBill = ({timeList}) => {
             return (
               <div className="bill" key={item.id}>
                 <div className="detail">
-                  <Icon img={item.useFor}/>
+                  <Icon img={item.useFor} />
                   <div className="billType">{billTypeToName[item.useFor]}</div>
                 </div>
                 <div className={classNames('money', item.type)}>

@@ -1,15 +1,28 @@
 .layout {
-    .container {
+    .nav {
       position: fixed;
       top: 0;
+      z-index: 1000;
+      --adm-font-size-10: 16px;
+      color: #121826;
+      background-color: white;
+      background: linear-gradient(180deg, #ffffff, #f5f5f5 100%);
+      font-weight: bold;
+      width: 100%;
+    }
+    .container {
+      position: fixed;
+      top: 7%;
       bottom: 50px;
       left: 0;
       width: 100%;
+      background-color: rgba(245, 245, 245, 0.9);
     }
     .footer {
       position: fixed;
       bottom: 0;
       width: 100%;
       font-weight: bold;
+      background-color: rgba($color: #ffffff, $alpha: 1.0);
     }
   }

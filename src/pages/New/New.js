@@ -5,7 +5,7 @@ import classNames from 'classnames'
 import { billListData } from '@/const/billType'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { addBill } from '@/store/modules/BillListSlice'
 import dayjs from 'dayjs'
 import { set } from 'lodash';
@@ -13,16 +13,19 @@ import { v4 } from 'uuid'
 
 const New = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+
   const [type, setType] = useState('pay'); 
   const [money, setMoney] = useState('');
   const [date, setDate] = useState(new Date());
   const [show, setShow] = useState(false);
   const [useFor, setUseFor] = useState('food');
+  const user = useSelector(elem=>elem.user);
 
-  const dispatch = useDispatch();
 
   function addOneBill(){
     let bill = {
+        userId:user.id,
         type,
         money:type==='pay'? -+money:money,
         date: dayjs(date).format("YYYY-MM-DD HH:mm:ss"),
@@ -105,7 +108,7 @@ const New = () => {
                     <div
                       className={classNames(
                         'item',
-                        {}
+                        {selected:useFor===second.type}
                       )}
                       key={second.type}
                       onClick={()=>setUseFor(second.type)}

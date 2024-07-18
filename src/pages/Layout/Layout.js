@@ -1,51 +1,61 @@
-import { Link, Outlet,useNavigate } from "react-router-dom";
-import {loadBillList, billListSelector} from '@/store/modules/BillListSlice';
+import { Outlet,useLocation,useNavigate } from "react-router-dom";
 import {useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
-import { TabBar } from "antd-mobile"
+import {  useState } from "react";
+import { TabBar,NavBar } from "antd-mobile"
 import '@/pages/Layout/index.scss'
 import {
   BillOutline,
   CalculatorOutline,
-  AddCircleOutline
+  AddCircleOutline,
+  UserOutline
 } from 'antd-mobile-icons'
 
 const tabs = [
   {
-    key: '/',
+    key: '/layout',
     title: '月度账单',
     icon: <BillOutline />,
   },
   {
-    key: '/new',
-    title: '记账',
-    icon: <AddCircleOutline />,
-  },
-  {
-    key: 'year',
+    key: '/layout/year',
     title: '年度账单',
     icon: <CalculatorOutline />,
   },
+  {
+    key:'/layout/home',
+    title:'我的',
+    icon:<UserOutline />
+  }
 ]
 
 function Layout(){
-    const dispatch = useDispatch();
     const navigate = useNavigate();
-    useEffect(()=>{
-        dispatch(loadBillList());
-    },[dispatch]);
-    function switchRoute(path){//切换菜单跳转路由
+    const location = useLocation();
+
+    const [now, setNow] = useState(location.pathname);//控制底部导航
+
+    const now_obj = tabs.find(elem=>elem.key===now);
+
+   function  switchRoute(path){//切换菜单跳转路由
+        setNow(path);
         navigate(path);
     }
     return (
         <div className="layout">
+            <NavBar className="nav" backArrow={false}>
+                {now_obj.title}
+            </NavBar>
             <div className="container">
                 <Outlet />
             </div>
             <div className="footer">
-                <TabBar onChange={switchRoute}>
+                <TabBar 
+                  onChange={switchRoute} 
+                  activeKey={now}
+                  defaultActiveKey={'/layout'}
+                >
                 {tabs.map(item => (
-                    <TabBar.Item key={item.key} icon={item.icon} title={item.title} />
+                    <TabBar.Item key={item.key} icon={item.icon} title={item.title}/>
                 ))}
                 </TabBar>
             </div>

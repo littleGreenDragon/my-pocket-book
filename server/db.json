@@ -1,6 +1,7 @@
 {
   "ka": [
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -99,
       "date": "2022-10-24 10:36:42",
@@ -8,6 +9,7 @@
       "id": "1"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -88,
       "date": "2022-10-24 10:37:51",
@@ -15,6 +17,7 @@
       "id": "2"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "income",
       "money": 100,
       "date": "2022-10-22 00:00:00",
@@ -22,6 +25,7 @@
       "id": "3"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -33,
       "date": "2022-09-24 16:15:41",
@@ -29,6 +33,7 @@
       "id": "4"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -56,
       "date": "2022-10-22T05:37:06.000Z",
@@ -36,6 +41,7 @@
       "id": "5"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -888,
       "date": "2022-10-28T08:21:42.135Z",
@@ -43,6 +49,7 @@
       "id": "6"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "income",
       "money": 10000,
       "date": "2023-03-20T06:45:54.004Z",
@@ -50,6 +57,7 @@
       "id": "7"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -10,
       "date": "2023-03-22T07:17:12.531Z",
@@ -57,6 +65,7 @@
       "id": "8"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -20,
       "date": "2023-03-22T07:51:20.421Z",
@@ -64,6 +73,7 @@
       "id": "9"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -100,
       "date": "2023-03-22T09:18:12.898Z",
@@ -71,6 +81,7 @@
       "id": "17"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -50,
       "date": "2023-03-23T09:11:23.312Z",
@@ -78,6 +89,7 @@
       "id": "18"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -100,
       "date": "2023-04-04T03:03:15.617Z",
@@ -85,6 +97,7 @@
       "id": "19"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "pay",
       "money": -100,
       "date": "2023-04-02T16:00:00.000Z",
@@ -92,6 +105,7 @@
       "id": "20"
     },
     {
+      "userId": "Hh-5P6A",
       "type": "income",
       "money": 10000,
       "date": "2023-02-28T15:00:00.000Z",
@@ -99,11 +113,226 @@
       "id": "21"
     },
     {
+      "userId": "Hh-5P6A",
       "id": "cf9b7eb5-c2c4-4706-a728-ee900cf2811d",
       "type": "pay",
       "money": -111,
       "date": "2024-07-15 21:48:31",
       "useFor": "longdistance"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "c2da0d03-e5cc-4158-bc42-f3c305d8d89a",
+      "type": "income",
+      "money": 110,
+      "date": "2024-07-15 21:52:02",
+      "useFor": "overtimepay"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "5a05c4bd-6ac8-4fcd-90b3-af68b8183eb4",
+      "type": "pay",
+      "money": -111,
+      "date": "2024-07-15 21:54:41",
+      "useFor": "game"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "07e69904-528b-4cbc-a37b-eec47fce3fac",
+      "type": "income",
+      "money": 20,
+      "date": "2024-07-15 21:55:18",
+      "useFor": "financial"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "9befe23d-ecdf-48d7-beee-98ee79f50df3",
+      "type": "income",
+      "money": 800,
+      "date": "2024-07-15 21:56:16",
+      "useFor": "bonus"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "bc032203-acd9-4cd3-a7d9-b38fb5982535",
+      "type": "pay",
+      "money": -10,
+      "date": "2024-07-15 21:57:34",
+      "useFor": "taxi"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "c6c346f4-77da-45e5-b259-defe547ca1a4",
+      "type": "pay",
+      "money": -200,
+      "date": "2024-07-15 21:58:17",
+      "useFor": "clothes"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "9e43db1c-90c3-4424-a566-ff7c17a53cc9",
+      "type": "pay",
+      "money": -10,
+      "date": "2024-07-15 21:59:53",
+      "useFor": "dessert"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "912f9692-9e31-4581-b2db-7f3900fc0e1e",
+      "type": "pay",
+      "money": -1000,
+      "date": "2024-07-14 00:00:00",
+      "useFor": "book"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "id": "a94f5c9d-264c-482a-930e-820e4adf9c1d",
+      "type": "income",
+      "money": 100,
+      "date": "2024-07-13 00:00:00",
+      "useFor": "financial"
+    },
+    {
+      "userId": "66fOAFH",
+      "type": "income",
+      "money": 10000,
+      "date": "2024-07-17 00:12:54",
+      "useFor": "salary",
+      "id": "56af0cd2-889b-4562-8831-78eb4a56674b"
+    },
+    {
+      "userId": "66fOAFH",
+      "type": "pay",
+      "money": -10,
+      "date": "2024-07-17 00:33:23",
+      "useFor": "dessert",
+      "id": "01d9c7b9-46ae-4849-993f-3667fc9e3a7f"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "pay",
+      "money": -100,
+      "date": "2024-07-01 00:00:00",
+      "useFor": "bag",
+      "id": "fb7cf191-c112-4ba4-9cfa-fd5d62d2bf0d"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "pay",
+      "money": -8,
+      "date": "2024-07-02 00:00:00",
+      "useFor": "dessert",
+      "id": "3c7335ee-5d91-495b-a919-64e9a16f2762"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "income",
+      "money": 30,
+      "date": "2024-07-17 01:19:13",
+      "useFor": "overtimepay",
+      "id": "89453f45-16ae-4e5d-8183-468b43b26808"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "pay",
+      "money": -120,
+      "date": "2024-07-17 02:33:52",
+      "useFor": "audio",
+      "id": "f75ed4d5-1997-4597-b76e-08b1f23d8ff2"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "income",
+      "money": 1500,
+      "date": "2024-07-03 00:00:00",
+      "useFor": "salary",
+      "id": "d0ccf094-19c1-47a7-9e90-d17e2bdb5fb0"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "income",
+      "money": 600,
+      "date": "2024-07-04 00:00:00",
+      "useFor": "salary",
+      "id": "5805cb16-9409-4207-938b-2d8a9bd024a3"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "income",
+      "money": 1000,
+      "date": "2022-12-17 00:00:00",
+      "useFor": "bonus",
+      "id": "7cd3cc39-f1e8-496c-9f85-f48cbbe79869"
+    },
+    {
+      "userId": "Vf1p-lj",
+      "type": "income",
+      "money": 20000,
+      "date": "2024-07-17 14:38:28",
+      "useFor": "salary",
+      "id": "c128ece2-3616-449a-9678-61260a700dc5"
+    },
+    {
+      "userId": "Hh-5P6A",
+      "type": "pay",
+      "money": -2000,
+      "date": "2024-07-18 01:21:54",
+      "useFor": "longdistance",
+      "id": "538d38b9-df0f-46a9-8366-27b3ded71957"
+    }
+  ],
+  "users": [
+    {
+      "email": "Jack@qq.com",
+      "password": "$2a$10$MtdLufRHMUNRMLsEDPSWre2Jdurvj1V2sr9kOzPODhSlp7xjTCGTK",
+      "id": "Hh-5P6A",
+      "username": "Jack",
+      "signature": "摆烂吧",
+      "avatar": "https://iconfont.alicdn.com/p/illus/preview_image/OWy6wItY79m3/a0a60ea8-d86f-483a-a2ee-cf3d9549cbad.png"
+    },
+    {
+      "email": "zhenzhen@qq.com",
+      "password": "$2a$10$Dam65F09s7Zaxxq3SHA35eOswHZbdhuB1mf6pvj8/MOZ.xEXopRju",
+      "id": "Ssj8mo5",
+      "username": "甄真",
+      "signature": "好，要睡觉了,啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊",
+      "avatar": "https://iconfont.alicdn.com/p/illus/preview_image/OWy6wItY79m3/a0a60ea8-d86f-483a-a2ee-cf3d9549cbad.png"
+    },
+    {
+      "email": "xiaohui@qq.com",
+      "password": "$2a$10$nydIMiCMXNfVteG.XssfH.HSu/fI6rRDpKmlLpl7rrylJxBsXaZ0y",
+      "id": "66fOAFH",
+      "username": "晓绘",
+      "signature": "我要找工作",
+      "avatar": "https://iconfont.alicdn.com/p/illus/preview_image/OWy6wItY79m3/a0a60ea8-d86f-483a-a2ee-cf3d9549cbad.png"
+    },
+    {
+      "email": "qianwen@qq.com",
+      "password": "$2a$10$Tfp92/R7R9P2/gTz39mnDu3fRMRORszEW/G3R3vt4FLs05MqFRNZS",
+      "id": "qymKGjZ",
+      "username": "千雯",
+      "signature": "今年必考公",
+      "avatar": "https://iconfont.alicdn.com/p/illus/preview_image/OWy6wItY79m3/a0a60ea8-d86f-483a-a2ee-cf3d9549cbad.png"
+    },
+    {
+      "email": "tingting@qq.com",
+      "password": "$2a$10$zydHOFtVTW7I0luR40O.luAXZ3ZRhzase11rMEd87Adg2Codzkl86",
+      "id": "1oVV4bh"
+    },
+    {
+      "email": "test@qq.com",
+      "password": "$2a$10$LTyvIGRX51Q6z0RHxB3TsuIeBlEdeoNrNAFho9h1yTNgC1dXJQUT2",
+      "id": "Vf1p-lj"
+    },
+    {
+      "email": "temp@qq.com",
+      "password": "$2a$10$gwOerb3MNKDmSlZfBqI4h.5GMsySynYfTF8Rghr9U0oL3qnBmdipe",
+      "id": "5jUaqLH"
+    },
+    {
+      "email": "haha@qq.com",
+      "password": "$2a$10$JFIhmb.C8CmCEyC9fBPhW.HhWTo5T3Wuu7lCwcsVwLSutDe2eSj5.",
+      "id": "nQPvOwQ"
     }
   ]
 }

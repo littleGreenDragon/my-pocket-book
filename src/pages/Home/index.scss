@@ -1,0 +1,47 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.9);
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+
+  .avatar{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .nickname {
+    padding: 4px 10px;
+    background-color: var(--adm-color-primary);
+    border-radius: 10px;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+  }
+
+  .content {
+    width: 90%;
+    box-shadow: 3px 2px 20px 10px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .logout {
+    width: 90%;
+  }
+}

@@ -47,7 +47,7 @@ export const billListData = {
     income: [
       {
         type: 'professional',
-        name: '其他支出',
+        name: '干活',
         list: [
           { type: 'salary', name: '工资' },
           { type: 'overtimepay', name: '加班' },
@@ -56,7 +56,7 @@ export const billListData = {
       },
       {
         type: 'other',
-        name: '其他收入',
+        name: '意外得来',
         list: [
           { type: 'financial', name: '理财收入' },
           { type: 'cashgift', name: '礼金收入' },
@@ -64,6 +64,30 @@ export const billListData = {
       },
     ],
   }
+
+  export const payTypeToParent = (function (){
+    const temp = new Map();//键是二级类型，值是一级类型
+    billListData.pay.forEach(elem=>{
+      let parent = elem.name;
+      let children = elem.list;
+      children.forEach(child=>{
+        temp.set(child.type, parent);
+      });
+    });
+    return temp;
+  })();
+
+  export const earnTypeToParent = (function (){
+    const temp = new Map();//键是二级类型，值是一级类型
+    billListData.income.forEach(elem=>{
+      let parent = elem.name;
+      let children = elem.list;
+      children.forEach(child=>{
+        temp.set(child.type, parent);
+      });
+    });
+    return temp;
+  })(); 
 
   //将类型展开
   export const billTypeToName = Object.keys(billListData).reduce((prev, key) => {
